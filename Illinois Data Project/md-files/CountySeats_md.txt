@@ -1,0 +1,32 @@
+# Counties/Seats
+
+## Data Cleaning Assessment
+1. This is a hand coded document containing the counties and seats of Southern Illinois. I had to copy this information from Wikipedia and paste it into an Excel sheet. When I uploaded it to Jupyter, I had nothing to clean since I created the document to be exactly what it needed to be. 
+2. Hand edits: This was all hand coded. 
+3. Program: Excel 
+4. Expected Time Spent: Around an hour. 
+
+## Authorship/Attribution/Provenance
+This document was written by me. I found the information for this document on Wikipedia. I got the Southern Illinois county list here: https://en.wikipedia.org/wiki/Southern_Illinois
+I got the county seat information here: https://en.wikipedia.org/wiki/List_of_counties_in_Illinois
+License: Creative Commons
+
+## Semantic Contents
+This file contains a list of Southern Illinois counties and their seats. The entire dataset is being used for this project. 
+
+## Collection Process
+I accessed Wikipedia with intention to pull this information on November 16th, 2018. I chose not to write any scripts or perform any web scraping because of the relatively miniscule amount of information needed. I copied each county, pasted it into an excel sheet, and then did the same thing for the county seats. 
+
+## Data Structure
+This information is stored in an Excel CSV file. All data is categorical. 
+
+## Describe
+Description of column: "County" includes the names of the 18 southernmost counties of Illinois. "Seat" includes the name of each county's seat. 
+
+Description of data values and units present: N/A
+
+Reason for missing values and the relevant missing values or codes: N/A
+
+Number of known missing values within this column: N/A
+
+

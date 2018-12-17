@@ -1,0 +1,32 @@
+# Yearly Employment/Living Wage/Distance to airport
+
+## Data Cleaning Assessment
+1. Cleaning needs: I first downloaded the BLS salary data. It was in week format, so I did the math by hand to change it to a yearly salary. Once I had stripped it down, I added the living wage data and the distance to airport. Both of these were hand created. 
+2. Hand edits: Added Living Wage/Distance to airport. DIstance to the airport was discovered using Google Maps. I calculated the distance from each county seat to St. Louis airport. The living wage information was found on the MIT Living wage calculator. 
+3. Program: Jupyter.
+4. Time Spent: 2-3 hours. 
+
+## Authorship/Attribution/Provenance
+Google Maps is covered under "Fair use."
+BLS data is free and open for use because it is federal data.
+The MIT living wage calculator is open for educational use. © 2018 Dr. Amy K. Glasmeier and the Massachusetts Institute of Technology
+
+## Semantic Contents
+This file includes counties and their corresponding yearly salaries, salary requirements for living wage, and distance to the St. Louis Airport. Everything in this dataset is being used. 
+
+## Collection Process
+I collected the BLS information by downloading it directly from the website. I used Google Maps trips calculator to get the mileage, and I entered information into the MIT calculator to get the living wage information. 
+
+## Describe
+column: county
+includes 18 southernmost counties of Illinois
+no missing data.
+
+column: yearly salary
+includes numerical data representing salaries
+
+column: living wage
+includes numerical data representing the salary it takes to living in the corresponding county
+
+column: distance to airport
+includes distance in miles to the St. Louis airport

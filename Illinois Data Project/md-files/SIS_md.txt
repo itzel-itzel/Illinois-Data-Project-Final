@@ -1,0 +1,72 @@
+# 2013 Southern Illinois Poll
+
+## Data Cleaning Assessment
+1. Cleaning needs: This survey is incredibly expansive. I sliced out only the columns that I needed. I then derived the median of each column by county.
+2. Hand edits: This required no hand edits.
+3. Program: I cleaned my data inside of a Jupyter Notebooks. 
+4. Time Spent: Around 2 hours. 
+
+## Authorship/Attribution/Provenance 
+This survey was created by the Paul Simon Public Policy Institute at Southern Illinois University Carbondale. 
+"The Institute’s annual Southern Illinois Poll collects voter opinion in the southernmost 18 counties in Illinois. It covers a wide range of policy topics important to residents of the region, including infrastructure, the economy, education, and the environment. The Southern Illinois Poll typically surveys 400 registered voters across the region. These surveys are based on a sample of telephone subscribers living in the 18 southernmost counties in Illinois, all south of Interstate 64. The respondents are located through random digit dialing techniques, which included both land lines and cell phones in the sample frame. The survey was contracted to Customer Research International of San Marcos, Texas, which did the sampling and the interviews following specifications provided by the staff of the Simon Institute."
+The poll and codebook was downloaded directly from this website:
+https://paulsimoninstitute.siu.edu/opinion-polls/southern-illinois-poll.php
+
+Project Citation: 
+
+Leonard, Charles, and Jackson, John. The Southern Illinois Poll: Fall 2013. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 2014-08-26. https://doi.org/10.3886/E100033V2
+Persistent URL:  http://doi.org/10.3886/E100033V2
+
+This work is licensed under a Creative Commons Attribution 4.0 International License.
+
+## Semantic Contents
+This file contains information about the quality of K12 education, quality of life, and broadband access corresponding to Southern Illinois. 
+## Collection Process
+
+## Data Structure
+excel/csv file. integer and categorical.
+
+## Describe
+column: county
+contains each of the 18 southernmost counties of Illinois.
+
+column: Quality K12
+contains categorical numberical data.
+no missing values 
+
+Value Label:
+Excellent
+1
+Good
+2
+Average
+3
+Below average
+4
+Poor
+5
+Other/Don’t know
+6
+
+column: Quality of Life
+contains categorical numerical data.
+no missing values.
+
+Value Label:
+Poor
+1
+Not so good
+2
+Average
+3
+Good
+4
+Excellent
+5
+
+column: broadband access
+contains numerical categorical data
+no missing values
+
+1: yes
+2: no

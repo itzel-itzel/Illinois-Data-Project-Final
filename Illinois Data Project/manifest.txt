@@ -1,0 +1,16 @@
+# Manifest
+## Illinois Data Project folder
+pycon proposal
+powerpoint slide
+assessment report
+resume
+final dataset
+## md-files
+contains all data documentation
+## originals
+contains data originals
+## textfiles
+contains intermediate datasets/anything hand coded
+## ipynb.checkpoints
+contains jupyter notebooks
+

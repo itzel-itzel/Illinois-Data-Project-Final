@@ -1,0 +1,23 @@
+# Stack Overflow Salary Estimates
+
+## Data Cleaning Assessment
+1. Cleaning needs: I hand created this file so it didn't need to be cleaned.
+2.Hand edits: I hand created the whole file.
+3.Program: Excel
+4.Time spent: An hour.
+
+## Authorship/Attribution/Provenance
+Stack Overflow Developer Survey 2018, Open Database License (ODbL) v1.0
+
+## Semantic Contents
+This pretty much just includes the not-very-localized estimated salary for each county, which is 64,000 every time. 
+
+## Collection Process
+I used the calculator on the Stack Overflow Website for this instead of scraping it or downloading it. I calculated the salary for each county as a backend developer with one year of experience.
+
+## Describe
+column: county
+includes 18 counties 
+
+column: salary
+includes numerical data representing the estimated salary of a developer. 
